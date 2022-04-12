@@ -26,8 +26,8 @@ footer, header, hgroup, menu, nav, section {
 
 .avatar {
 		vertical-align: middle;
-		width: 65px;
-		height: 65px;
+		width: 70px;
+		height: 70px;
 		border-radius: 50%;
 }
 
@@ -2636,8 +2636,9 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
-			width: 100%;
+			 margin-right: 75%; 
+			 margin-left: 25%;               /*margin: 4rem 0;*/
+			width: 75%;
 		}
 
 			.image.main:first-child {
@@ -2645,7 +2646,7 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				width: 75%;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -2655,7 +2656,9 @@ input, select, textarea {
 			}
 
 			.image.main {
-				margin: 2rem 0;
+				                          /*margin: 2rem 0;*/
+			 margin-right: 75%; 
+			 margin-left: 25%; 
 			}
 
 		}
@@ -3924,7 +3927,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > article .image {
-					max-width: 25rem;
+					max-width: 25rem;   /* ou 15rem */
 					margin-left: auto;
 					margin-right: auto;
 				}

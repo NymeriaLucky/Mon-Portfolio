@@ -2656,8 +2656,7 @@ input, select, textarea {
 			}
 
 			.image.main {
-				                          /*margin: 2rem 0;*/
-			 margin-right: 75%; 
+			 margin-right: 75%;  /* ou margin: 2rem 0;*/
 			 margin-left: 25%; 
 			}
 

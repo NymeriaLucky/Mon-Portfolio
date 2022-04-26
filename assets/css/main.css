@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 		border-radius: 50%;
 }
 
+button, a, a:hover{text-decoration: none;}
+
 body {
 	line-height: 1;
 }
@@ -2226,7 +2228,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #212931;
+			background-color: #312121;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
